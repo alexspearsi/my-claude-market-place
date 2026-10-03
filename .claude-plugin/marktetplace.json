@@ -1,5 +1,5 @@
 {
-  "name": "My Plugins Marketplace",
+  "name": "my-claude-market-place",
   "owner": {
     "name": "Alexander Strelchenko",
     "email": "strelchenko.aleksandr@yandex.ru"
@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "expense-tracker",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "plugins/expense-tracker"
     }
   ]
