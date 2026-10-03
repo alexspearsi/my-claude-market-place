@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell.exe -NoProfile -File \"$CLAUDE_PROJECT_DIR/.claude/hooks/stop-notify.ps1\""
+            "command": "powershell.exe -NoProfile -File \"$CLAUDE_PLUGIN_ROOT/bin/stop-notify.ps1\""
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/protected.sh\""
+            "command": "bash \"$CLAUDE_PLUGIN_ROOT/bin/protected.sh\""
           }
         ]
       }

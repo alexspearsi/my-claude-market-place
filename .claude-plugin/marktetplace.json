@@ -1,0 +1,18 @@
+{
+  "name": "My Plugins Marketplace",
+  "owner": {
+    "name": "Alexander Strelchenko",
+    "email": "strelchenko.aleksandr@yandex.ru"
+  },
+  "metadata": {
+    "description": "Инструменты для разработки проектов"
+  },
+  "pluginRoot": "plugins",
+  "plugins": [
+    {
+      "name": "expense-tracker",
+      "version": "1.0.0",
+      "source": "plugins/expense-tracker"
+    }
+  ]
+}
